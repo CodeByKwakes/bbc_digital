@@ -8,6 +8,7 @@ var showController = require('../controllers/showController');
 var router = express.Router();
 
 // Front-end Routes
-router.get('/shows', showController.showIndex);
+router.get('/shows', showController.allShows);
+// router.post('/shows/populate', showController.getShows);
 
 module.exports = router;

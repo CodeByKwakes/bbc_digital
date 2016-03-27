@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KwakesProject/bbc_digital#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.2",
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
     "cors": "^2.7.1",
@@ -24,6 +25,7 @@
     "method-override": "^2.3.5",
     "mongoose": "^4.4.10",
     "morgan": "^1.7.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.69.0"
   }
 }
